@@ -1,8 +1,8 @@
 export default class Gun {
-    constructor( name, ammo, rating ){
+    constructor( name, ammo, description ){
         this.name = name;
         this.ammo = ammo;
-        this.rating = rating;
+        this.description = description;
     }
 
     Reset(){

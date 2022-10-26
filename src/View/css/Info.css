@@ -1,0 +1,23 @@
+.description{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    margin-top: 30px;
+}
+
+.description div{
+    width: 50%;
+    height: auto;
+}
+
+.vertical-line{
+    position: absolute;
+    width: 2%;
+    height: 100%;
+}
+
+.sub-panel{
+    display: flex;
+    justify-content: center;
+}
