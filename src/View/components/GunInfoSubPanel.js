@@ -8,7 +8,6 @@ function GunInfoSubPanel( props ) {
 
     useEffect(() => {
         setGun(props.gun)
-        console.log(gun);
     }, [props.gun])
 
     return gun ? (

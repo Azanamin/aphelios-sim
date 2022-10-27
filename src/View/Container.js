@@ -83,7 +83,7 @@ function Container() {
             </div>
             <div className="info">
                 <div style={{color: "white"}}>
-                    left click: -1 main ammo | Q key: -10 main ammo
+                    left click: -1 main ammo | Q: -10 main ammo | W: switch main and sub gun
                 </div>
             </div>
             <Info main={mainGun} sub={subGun}/>
