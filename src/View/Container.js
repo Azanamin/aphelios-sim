@@ -55,14 +55,14 @@ function Container() {
     return( 
         <>
         <div className='background'
-        onKeyDown={location.pathname === "/aphelios-sim" ? keyHandle : undefined} 
-        onMouseDown={location.pathname === "/aphelios-sim" ? clickHandle : undefined} tabIndex={-1} >
+        onKeyDown={location.pathname === "/aphelios-sim/" ? keyHandle : undefined} 
+        onMouseDown={location.pathname === "/aphelios-sim/" ? clickHandle : undefined} tabIndex={-1} >
             <img src="assets/background/background.jpg" alt=""></img>
         </div>
 
         <div className='container mt-5' id='main' 
-        onKeyDown={location.pathname === "/aphelios-sim" ? keyHandle : undefined} 
-        onMouseDown={location.pathname === "/aphelios-sim" ? clickHandle : undefined} tabIndex={0}
+        onKeyDown={location.pathname === "/aphelios-sim/" ? keyHandle : undefined} 
+        onMouseDown={location.pathname === "/aphelios-sim/" ? clickHandle : undefined} tabIndex={0}
         style={{position: "relative"}}> 
 
             <div className='skill-container'>
