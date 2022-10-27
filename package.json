@@ -1,7 +1,7 @@
 {
   "name": "aphelios_sim",
   "version": "0.1.0",
-  "homepage": "https://aphelios_sim.github.io",
+  "homepage": "https://azanamin.github.io/aphelios-sim/",
   "private": true,
   "dependencies": {
     "boostrap": "^2.0.0",
