@@ -1,5 +1,7 @@
 import Gun from "./model/Gun"
 
+export const GH_ROOT_URL = "/aphelios-sim/";
+
 export const GUN = [
     new Gun('Calibrum', 50, {
         order: 0,

@@ -68,8 +68,8 @@ function Container() {
         </div>
 
         <div className='container mt-5' id='main' 
-        onKeyDown={location.pathname === "/" ? keyHandle : undefined} 
-        onMouseDown={location.pathname === "/" ? clickHandle : undefined} tabIndex={0}
+        onKeyDown={location.pathname === "/aphelios-sim" ? keyHandle : undefined} 
+        onMouseDown={location.pathname === "/aphelios-sim" ? clickHandle : undefined} tabIndex={0}
         style={{position: "relative"}}> 
 
             <div className='skill-container'>

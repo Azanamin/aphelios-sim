@@ -9,7 +9,7 @@ function GunSkill( props ){
 
     const clickHandle = (event) => {
         if(event.button === 0){
-            nav("/" + props.gun.name);
+            nav("/aphelios-sim/" + props.gun.name);
         }
     }
 
