@@ -30,10 +30,10 @@ function GunInfo(){
                         marginTop: "2px",
                         marginLeft: "2px"   
                     }} 
-                    src={"../assets/mini_icon/" + gun.name + ".png"}>
+                    src={"assets/mini_icon/" + gun.name + ".png"}>
                 </img>
                 {gun && <h5 className="gun-name" style={{color: gun.description.hexCode}}> {gun.name} - {gun.description.viet} </h5>}
-                <Link to="/" className="return" onClick={() => {document.getElementById("main").style.opacity = 1}}>x</Link>
+                <Link to="/aphelios-sim/" className="return" onClick={() => {document.getElementById("main").style.opacity = 1}}>x</Link>
             </div>
         </Fade>
     );

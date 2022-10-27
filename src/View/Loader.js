@@ -6,7 +6,7 @@ function Loader(){
     const navigate = useNavigate();
 
     useEffect(() => {
-        navigate('/aphelios-sim');
+        navigate('/aphelios-sim/');
     }, [])
 
     return (

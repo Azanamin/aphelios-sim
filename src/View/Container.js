@@ -39,13 +39,6 @@ function Container() {
         }
     }, [mainGun])
 
-    useEffect(() => {
-        if(location.pathname !== "/") {
-            clickHandle = (event) => {}
-            keyHandle = (event) => {}
-        }
-    })
-
     const [queue, setQueue] = useState(new GunQueue());
 
     const nav = useNavigate();
@@ -62,8 +55,8 @@ function Container() {
     return( 
         <>
         <div className='background'
-        onKeyDown={location.pathname === "/" ? keyHandle : undefined} 
-        onMouseDown={location.pathname === "/" ? clickHandle : undefined} tabIndex={-1} >
+        onKeyDown={location.pathname === "/aphelios-sim" ? keyHandle : undefined} 
+        onMouseDown={location.pathname === "/aphelios-sim" ? clickHandle : undefined} tabIndex={-1} >
             <img src="assets/background/background.jpg" alt=""></img>
         </div>
 
